@@ -219,3 +219,35 @@ obj.lname = "Paul";
 // or
 obj["fname"] = "Saikat";
 obj["lname"] = "Paul"
+
+// Functions
+// Function declaration
+
+function functionName(){
+
+}
+
+// Function with some arguments
+function functionName(argument1, argument2){
+
+}
+
+// Function with arguments and return
+function functionName(argument1, argument2) {
+    return "Some value";
+}
+
+// Function Expression
+const functionName = function(){
+
+}
+
+// Function with some arguments
+const functionName = function(argument1, argument2){
+    return "some value"
+}
+
+// Arrow function
+const functionName = (argument1, argument2) => {
+    return "some value"
+}
