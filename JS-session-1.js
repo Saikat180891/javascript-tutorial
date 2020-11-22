@@ -8,11 +8,12 @@
  * 4. Null
  * 5. Symbol
  * 6. Undefined
+ * 7. BigInt
  * ***********************************
  * Structural datatypes
- * 7. Function
- * 8. Array
- * 9. Object
+ * 8. Function
+ * 9. Array
+ * 10. Object
  */
 
  /**
@@ -40,6 +41,17 @@ c = 6; // this will through an error since you cannot reassgin to a const variab
 
 let x = "Saikat";
 let y = true;
+
+/**
+ * How to declare a variable
+ * 
+ */
+let $num = 1;
+let num_1 = 1;  // snake case
+let __num1 = 1;
+let _num = 1;
+let numOne = 1; // camel case
+
 
 /**
  * Operators
